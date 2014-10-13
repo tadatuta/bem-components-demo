@@ -1,0 +1,10 @@
+.overlay
+{
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    height: 700px;
+
+    width: 600px;
+    height: 300px;
+}

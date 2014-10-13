@@ -1,0 +1,18 @@
+{
+  "name": "bem-components-demo",
+  "version": "1.0.0",
+  "description": "bem-components demo",
+  "bugs": "https://github.com/tadatuta/bem-components-demo/issues",
+  "ignore": [
+    ".bem/cache",
+    "node_modules",
+    "libs"
+  ],
+  "dependencies": {
+    "bem-core": "ff5efbef8adc1f38b730c2d0e5f405e0b0d3e3d9",
+    "bem-components": "5f3cefd5fa1c7e5205d51fa10b8e3b59c31529d2"
+  },
+  "resolutions": {
+    "bem-core": "ff5efbef8adc1f38b730c2d0e5f405e0b0d3e3d9"
+  }
+}

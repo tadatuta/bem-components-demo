@@ -1,0 +1,5 @@
+({
+    shouldDeps: {
+        mods: { view : 'action' }
+    }
+})

@@ -1,0 +1,60 @@
+.page
+{
+    animation-duration: 20s;
+    animation-name: bkg;
+
+    position: relative;
+    background: #fff;
+}
+
+@keyframes bkg {
+  0% {
+    background: #fff;
+
+  }
+
+  10% {
+    background: #fff;
+  }
+
+  20% {
+    background: #3779bc;
+  }
+
+  30% {
+      background: #6fc3e0;
+  }
+
+  40% {
+      background: #6fc3e0;
+  }
+
+  50% {
+      background: #ffdb4a;
+  }
+
+  60% {
+      background: #ffba59;
+  }
+
+  70% {
+      background: #9d65a9;
+  }
+
+  80% {
+      background: #6c65a9;
+  }
+
+  90% {
+      background: #b0a79a;
+  }
+
+  100% {
+      background: #fff;
+  }
+}
+
+h1, h2
+{
+    font-weight: normal;
+}
