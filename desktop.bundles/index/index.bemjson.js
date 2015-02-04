@@ -8,7 +8,7 @@
         { elem: 'css', url: '_index.css' }
     ],
     scripts: [{ elem: 'js', url: '_index.js' }],
-    mods: { theme: 'normal' },
+    mods: { theme: 'islands' },
     mix: {
         block: 'animation',
         js: {
@@ -214,7 +214,7 @@
                         {
                             selector: 'spin',
                             mods: {
-                                progress: ['', true]
+                                visible: ['', true]
                             }
                         },
                         {
@@ -230,7 +230,7 @@
                         {
                             selector: 'spin',
                             mods: {
-                                progress: [true, '']
+                                visible: [true, '']
                             }
                         },
                         {
@@ -264,7 +264,7 @@
                         {
                             selector: 'spin',
                             mods: {
-                                progress: ['', true]
+                                visible: ['', true]
                             }
                         },
                         {
@@ -286,7 +286,7 @@
                         {
                             selector: 'spin',
                             mods: {
-                                progress: [true, '']
+                                visible: [true, '']
                             }
                         },
                         {
@@ -363,13 +363,13 @@
                 },
                 {
                     block: 'input',
-                    mods : { theme : 'normal', size : 'xl', 'has-clear': true },
+                    mods : { theme : 'islands', size : 'xl', 'has-clear': true },
                     mix: { block: 'invisible' }
                     // TODO: add hint
                 },
                 {
                     block : 'button',
-                    mods : { theme : 'normal', size : 'xl' },
+                    mods : { theme : 'islands', size : 'xl' },
                     mix: { block: 'invisible' },
                     text : 'Кнопка',
                     js : { live: false }
@@ -381,7 +381,7 @@
                         text : 'Картинки',
                         name: 'normal',
                         val: '3',
-                        mods : { theme : 'normal', size : 'l' },
+                        mods : { theme : 'islands', size : 'l' },
                         mix: { block: 'invisible' }
                     }
                 },
@@ -390,7 +390,7 @@
                     content: [
                         {
                             block : 'select',
-                            mods : { mode : 'radio', theme : 'normal', size : 'xl' },
+                            mods : { mode : 'radio', theme : 'islands', size : 'xl' },
                             mix: { block: 'invisible' },
                             name : 'select1',
                             options : [
@@ -403,7 +403,7 @@
                         {
                             block : 'radio-group',
                             name : 'normal1',
-                            mods : { theme : 'normal', size : 'xl', type: 'button' },
+                            mods : { theme : 'islands', size : 'xl', type: 'button' },
                             mix: { block: 'invisible' },
                             options : [
                                 { val : 1, text : 'Черно-белые' },
@@ -415,7 +415,7 @@
                 {
                     content: {
                         block : 'spin',
-                        mods : { theme : 'normal', size : 'l', progress : false }
+                        mods : { theme : 'islands', size : 'l', visible : false }
                     }
                 },
                 {
@@ -428,7 +428,7 @@
                                 {
                                     block: 'image',
                                     attrs: { style: 'width: 50%' },
-                                    url: 'http://ru.bem.info/m/_/4-nd-l8mNDVgsbcAlhXuIEbKODY.svg'
+                                    url: 'https://ru.bem.info/m/_/JQgROUBNz_QupYqLPetZ_3hKn18.svg'
                                 }
                             ]
                         },
@@ -439,7 +439,7 @@
                                 {
                                     block: 'image',
                                     attrs: { style: 'width: 50%' },
-                                    url: 'http://ru.bem.info/m/_/xL6vW7WVkUZD_G7-TDRuP8IBPAY.svg'
+                                    url: 'https://ru.bem.info/m/_/lHGkpIFauDlxw9MGg869APxKdkc.svg'
                                 }
                             ]
                         }
