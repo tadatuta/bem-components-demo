@@ -5,10 +5,11 @@
   "bugs": "https://github.com/tadatuta/bem-components-demo/issues",
   "ignore": [
     ".bem/cache",
+    ".enb/tmp",
     "node_modules",
     "libs"
   ],
   "dependencies": {
-    "bem-components": "^2.0.0"
+    "bem-components": "2.3.0"
   }
 }
