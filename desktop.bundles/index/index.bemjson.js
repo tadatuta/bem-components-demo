@@ -428,7 +428,7 @@
                                 {
                                     block: 'image',
                                     attrs: { style: 'width: 50%' },
-                                    url: 'https://ru.bem.info/m/_/JQgROUBNz_QupYqLPetZ_3hKn18.svg'
+                                    url: 'https://raw.githubusercontent.com/bem/bem-identity/master/sign/_theme/sign_theme_batman.png'
                                 }
                             ]
                         },
@@ -439,7 +439,7 @@
                                 {
                                     block: 'image',
                                     attrs: { style: 'width: 50%' },
-                                    url: 'https://ru.bem.info/m/_/lHGkpIFauDlxw9MGg869APxKdkc.svg'
+                                    url: 'https://raw.githubusercontent.com/bem/bem-identity/master/sign/_theme/sign_theme_robin.png'
                                 }
                             ]
                         }
