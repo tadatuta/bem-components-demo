@@ -1,9 +1,10 @@
 .overlay
 {
     position: absolute;
-    left: 400px;
+    left: 50%;
     top: 100px;
     height: 700px;
+    margin-left: -300px;
 
     width: 600px;
     height: 300px;
